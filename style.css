@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto" sans-serif;
+  box-sizing: border-box;
+}
+:root {
+  ---dark-background: #1f2937;
+  ---hero-text: 48px;
+  ---hero-weight: 900;
+  ---hero-secondary-text: 18px;
+  ---hero-seco-color: #e5e7eb;
+  ---logo-text: 24px;
+  ---logo-color: #f9faf8;
+  ---button-color: #3882f6;
+  ---info-header-text: 36px;
+  ---info-heder-color: #1f2937;
+  ---info-header-weight: 900;
+  ---quote-background: #e5e7eb;
+  ---quote-text: 36px;
+  ---quote-font: light italic;
+  ---quote-color: #1f2937;
+}
