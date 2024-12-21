@@ -21,3 +21,8 @@
   --quote-font: light italic;
   --quote-color: #1f2937;
 }
+.hero {
+  height: 100vh;
+  width: 100%;
+  background: var(--dark-background);
+}
