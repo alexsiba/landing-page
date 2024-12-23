@@ -26,3 +26,6 @@
   width: 100%;
   background: var(--dark-background);
 }
+#home h2 {
+  color: #fff;
+}
