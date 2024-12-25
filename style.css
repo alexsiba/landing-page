@@ -137,3 +137,38 @@
   font-style: var(--quote-font);
   font-style: italic;
 }
+
+/*-------------------reminder--------------*/
+.reminder {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reminder .container {
+  width: 59rem;
+  height: 130px;
+  background: #3882f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 270px;
+  border-radius: 10px;
+}
+.reminder .container span {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+}
+.reminder .container p {
+  color: #f9faf8;
+}
+.reminder .container button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: solid 2px white;
+  background: var(--button-color);
+  color: var(--hero-secondary-color);
+  font-size: 14px;
+  font-weight: var(--hero-weight);
+}
