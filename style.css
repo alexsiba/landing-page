@@ -22,7 +22,7 @@
   --quote-color: #1f2937;
 }
 .hero {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   background: var(--dark-background);
 }
@@ -53,10 +53,12 @@
   height: 80%;
   justify-content: space-evenly;
   align-items: center;
+  margin: 0 250px;
+  gap: 10px;
 }
 .main-img {
-  width: 600px;
-  height: 200px;
+  width: 900px;
+  height: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,4 +86,37 @@
   color: var(--hero-secondary-color);
   font-size: 14px;
   font-weight: var(--hero-weight);
+}
+/*-------------------------------about section-------------*/
+.about {
+  margin: 0 350px;
+  height: 50vh;
+}
+.about h1 {
+  text-align: center;
+  padding: 40px 0;
+  font-size: var(--info-header-text);
+  font-weight: var(--info-header-weight);
+  color: var(--info-heder-color);
+}
+.about .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+.boxers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.boxers .box {
+  padding: 70px;
+  border-radius: 10px;
+  border: solid var(--button-color);
+}
+.boxers p {
+  text-align: center;
+  padding-top: 10px;
+  color: #5e5e5e;
 }
