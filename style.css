@@ -120,3 +120,20 @@
   padding-top: 10px;
   color: #5e5e5e;
 }
+
+/*-------------------quote-------------------*/
+.quote {
+  background: var(--quote-background);
+  color: var(--quote-color);
+  height: 50vh;
+  padding: 0 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.quote p {
+  font-size: var(--quote-text);
+  font-style: var(--quote-font);
+  font-style: italic;
+}
